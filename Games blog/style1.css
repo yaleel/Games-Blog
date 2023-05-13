@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width=100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Evacuation-export.png);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin: 10px 15px;
+    
+}
+
+.col{
+flex-basis: 50%;    
+}
+
+h2{
+    color: white;
+font-size: 40px;  
+    font-family:cursive;
+    margin-left: 10px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+h4{
+    color: aliceblue;
+    font-family: monospace;
+    text-shadow: 0 0 5px black;
+}
+
+a.button{
+    width: 180px;
+    color: black;
+    font-size: 17px;
+    padding: 12px 0;
+    background: aliceblue;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+     -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-family:fantasy;
+}
+
+.card{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+
+.card1{
+    background-image: url(images/me-featured-image-mele-keyart-logo.jpg.adapt.crop16x9.1023w.jpg)
+}
+
+.card2{
+    background-image: url(images/SONICPRIME_A.jpg)
+}
+
+.card3{
+    background-image: url(images/Blue_Xbox_logo.avif)
+}
+
+.card4{
+    background-image: url(images/CA_videogames_10242022istock.webp)
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+.newspaper{
+    margin-top: 80px;
+    column-count: 2;
+    text-align:left;
+    
+  }
+  
+  .newspaper p{
+    font-size:16px;
+    float: left;
+    margin:2em 1em 0.1em 1em;
+      font-family: monospace
+    
+    
+  }
+  .newspaper img{
+    height:auto;
+    width:100%;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+.h22{
+    font-family:fantasy;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+strong{
+    font-family:fantasy;
+    font-weight: 30;
+}
+
+.h33{
+    font-family:fantasy;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 60px;
+    text-align-last: center;
+    
+}
+
+.contacts1{
+    display: inline;
+    position: absolute;
+    top:340px;
+    left: 130px;
+    color: aliceblue;
+}
+.contacts_num1{
+    display: inline;
+    position: absolute;
+    left:300px;
+    top:340px;
+    color: aliceblue;
+}
+
+.contacts2{
+    display: inline;
+    position: absolute;
+    top:460px;
+    left: 130px;
+    color: aliceblue;
+}
+.contacts_num2{
+    display: inline;
+    position: absolute;
+    left:300px;
+    top:460px;
+    color: aliceblue;
+}
+
+.contacts3{
+    display: inline;
+    position: absolute;
+    top:580px;
+    left: 130px;
+    color: aliceblue;
+}
+.contacts_num3{
+    display: inline;
+    position: absolute;
+    left:300px;
+    top:580px;
+    color: aliceblue;
+}
+
+.contacts4{
+    display: inline;
+    position: absolute;
+    top:705px;
+    left: 130px;
+    color: aliceblue;
+}
+.contacts_num4{
+    display: inline;
+    position: absolute;
+    left:300px;
+    top:705px;
+    color: aliceblue;
+}
+
